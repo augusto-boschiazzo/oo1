@@ -1,0 +1,32 @@
+package ar.edu.unlp.info.oo1.ooBnB;
+
+import java.util.List;
+
+public class Propiedad {
+	private String nombre, direccion, descripcion;
+	private double precio;
+	private Usuario propietario;
+	private List<DateLapse> ocupado;
+	
+	public String getNombre() {
+		return nombre;
+	}
+	
+	public String getDireccion() {
+		return direccion;
+	}
+	
+	public String getDescripcion() {
+		return descripcion;
+	}
+	
+	public double getPrecio() {
+		return precio;
+	}
+	
+	public Usuario getPropietario() {
+		return propietario;
+	}
+	
+
+}

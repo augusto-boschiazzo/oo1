@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;otro.lapse.DateLapse&apos; to &apos;DateLapseSize&apos;&#x0A;- Original project: &apos;fechas&apos;&#x0A;- Original element: &apos;otro.lapse.DateLapse&apos;&#x0A;- Renamed element: &apos;otro.lapse.DateLapseSize&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;DateLapse&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;otro.lapse{DateLapse.java[DateLapse" matchStrategy="1" name="DateLapseSize" qualified="false" references="true" similarDeclarations="false" stamp="1696442066789" textual="false" version="1.0"/>
+</session>

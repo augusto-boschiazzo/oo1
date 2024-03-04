@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="/home/carla/Facultad/oo1/practica/practica6/fechas"/>
+			<item value="/home/carla/Facultad/oo1/practica/practica1/ejercicio1"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="/home/carla/Facultad/oo1/practica/practica7"/>
+			<item value="/home/carla/Facultad/oo1/practica/practica6"/>
+			<item value="/home/carla/Facultad/oo1/practica/practica5"/>
+			<item value="/home/carla/Facultad/oo1/practica/practica4"/>
+			<item value="/home/carla/Facultad/oo1/practica/practica3"/>
+			<item value="/home/carla/Facultad/oo1/practica/practica2"/>
+			<item value="/home/carla/Facultad/oo1/practica"/>
+			<item value="/home/carla/Facultad/oo1/practica/practica1"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="defaultLocal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="ar.edu.unlp.info.oo1.ooBnB"/>
+			<item value="ar.edu.unlp.info.oo1.fechas"/>
+			<item value="ar.edu.unlp.info.oo1.correo"/>
+			<item value="ar.edu.unlp.info.oo1.reporteConstruccion"/>
+			<item value="ar.edu.unlp.info.oo1.distribuidoraElectric"/>
+			<item value="ar.edu.unlp.info.oo1.inversiones"/>
+			<item value="ar.edu.unlp.info.oo1.jobScheduler"/>
+			<item value="ar.edu.unlp.info.oo1.cuentasBancarias"/>
+			<item value="ar.edu.unlp.info.oo1.distribuidoraElectrica"/>
+		</list>
+		<list key="groupId">
+			<item value="ar.edu.unlp.info.oo1"/>
+		</list>
+		<list key="artifactId">
+			<item value="ooBnB"/>
+			<item value="fechas"/>
+			<item value="correo"/>
+			<item value="reporteConstruccion"/>
+			<item value="distribuidoraElectric"/>
+			<item value="inversiones"/>
+			<item value="jobScheduler"/>
+			<item value="cuentasBancarias"/>
+			<item value="distribuidoraElectrica"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
+		<list key="archetypeGroupId">
+			<item value="ar.edu.unlp.info.oo1"/>
+		</list>
+		<list key="archetypeArtifactId">
+			<item value="objetos-uno"/>
+		</list>
+		<list key="archetypeVersion">
+			<item value="1.0.0"/>
+		</list>
+		<list key="repositoryUrl">
+			<item value="https://github.com/edu-unlp-info-objetos/oo1/blob/main/objetos-uno-archetype/objetos-uno-archetype-1.0.0.jar?raw=true"/>
+		</list>
+	</section>
+</section>

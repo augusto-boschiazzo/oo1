@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.distribuidoraElectrica.Factura"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.time.temporal.TemporalUnit"/>
+    <fullyQualifiedTypeName name="java.awt.List"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.jobScheduler.FIFO"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.jobScheduler.LIFO"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.jobScheduler.HighestPriority"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.jobScheduler.MostEffort"/>
+    <fullyQualifiedTypeName name="java.time.temporal.ChronoUnit"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+</qualifiedTypeNameHistroy>

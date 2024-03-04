@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;ar.edu.unlp.objetos.uno.alumbrado.Farola.isEncendida()&apos; to &apos;isOn&apos;&#x0A;- Original project: &apos;alumbrado&apos;&#x0A;- Original element: &apos;ar.edu.unlp.objetos.uno.alumbrado.Farola.isEncendida()&apos;&#x0A;- Renamed element: &apos;ar.edu.unlp.objetos.uno.alumbrado.Farola.isOn()&apos;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;isEncendida&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.method" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;ar.edu.unlp.objetos.uno.alumbrado{Farola.java[Farola~isEncendida" name="isOn" references="true" stamp="1695057796457" version="1.0"/>
+</session>

@@ -1,0 +1,50 @@
+package ar.edu.unlp.info.oo1.ooBnB;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Usuario {
+	private String nombre, direccion, dni;
+	private List<Propiedad> propiedades;
+	private List<Reserva> reservas;
+	private List<Reserva> alquileres;
+	
+	public Usuario(String nombre, String direccion, String dni) {
+		this.nombre = nombre;
+		this.direccion = direccion;
+		this.dni = dni;
+		propiedades = new ArrayList<Propiedad>();
+		reservas = new ArrayList<Reserva>();
+	}
+	
+	public String getNombre() {
+		return nombre;
+	}
+	
+	public String getDireccion() {
+		return direccion;
+	}
+	
+	public String getDni() {
+		return dni;
+	}
+	
+	public List<Propiedad> getPropiedades() {
+		return propiedades;
+	}
+	
+	public List<Reserva> getReservas() {
+		return reservas;
+	}
+	
+	public double ingresos(DateLapse periodo) {
+		return alquileres.stream().mapToDouble(a -> a.calcularPrecio())sum();
+	}
+	
+	public void agregarReserva(Reserva reserva) {
+		this.reservas.add(reserva);
+	}
+	
+
+
+}

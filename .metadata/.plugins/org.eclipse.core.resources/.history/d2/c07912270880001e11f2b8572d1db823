@@ -1,0 +1,9 @@
+package ar.edu.unlp.info.oo1.ooBnB;
+
+public class Reserva {
+	private DateLapse periodo;
+	private Propiedad propiedad;
+	
+	public double calcularPrecio
+
+}

@@ -1,0 +1,14 @@
+package ar.edu.unlp.info.oo1.ooBnB;
+
+import java.util.List;
+
+public class OOBnB {
+	private List<Usuario> usuarios;
+	private List<Propiedad> propiedades;
+	private List<Reserva> reservas;
+	
+	public void hacerReserva(Propiedad propiedad, DateLapse periodo) {
+		Reserva reserva = new Reserva(periodo, propiedad);
+	}
+
+}

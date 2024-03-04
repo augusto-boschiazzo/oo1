@@ -1,0 +1,46 @@
+package ar.edu.unlp.info.oo1.ooBnB;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Propiedad {
+	private String nombre, direccion, descripcion;
+	private double precio;
+	private Usuario propietario;
+	private List<DateLapse> ocupado;
+	
+	public Propiedad(String nombre, String direccion, String descripcion, Double precio, Usuario propietario) {
+		this.nombre = nombre;
+		this.direccion = direccion;
+		this.descripcion = descripcion;
+		this.precio = precio;
+		this.propietario = propietario;
+		this.ocupado = new ArrayList<DateLapse>();
+	}
+	
+	public String getNombre() {
+		return nombre;
+	}
+	
+	public String getDireccion() {
+		return direccion;
+	}
+	
+	public String getDescripcion() {
+		return descripcion;
+	}
+	
+	public double getPrecio() {
+		return precio;
+	}
+	
+	public Usuario getPropietario() {
+		return propietario;
+	}
+	
+	public int diasOcupado() {
+		return ocupado.stream().mapToInt(l -> l.sizeInDays()).sum();
+	}
+	
+
+}
