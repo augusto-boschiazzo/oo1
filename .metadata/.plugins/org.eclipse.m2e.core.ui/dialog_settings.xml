@@ -35,7 +35,7 @@
 		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
-		<item key="catalog" value="defaultLocal"/>
+		<item key="catalog" value="https://repo1.maven.org/maven2/archetype-catalog.xml"/>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -47,29 +47,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="ar.edu.unlp.info.oo1.ooBnB"/>
-			<item value="ar.edu.unlp.info.oo1.fechas"/>
-			<item value="ar.edu.unlp.info.oo1.correo"/>
-			<item value="ar.edu.unlp.info.oo1.reporteConstruccion"/>
-			<item value="ar.edu.unlp.info.oo1.distribuidoraElectric"/>
-			<item value="ar.edu.unlp.info.oo1.inversiones"/>
-			<item value="ar.edu.unlp.info.oo1.jobScheduler"/>
-			<item value="ar.edu.unlp.info.oo1.cuentasBancarias"/>
-			<item value="ar.edu.unlp.info.oo1.distribuidoraElectrica"/>
 		</list>
 		<list key="groupId">
-			<item value="ar.edu.unlp.info.oo1"/>
 		</list>
 		<list key="artifactId">
-			<item value="ooBnB"/>
-			<item value="fechas"/>
-			<item value="correo"/>
-			<item value="reporteConstruccion"/>
-			<item value="distribuidoraElectric"/>
-			<item value="inversiones"/>
-			<item value="jobScheduler"/>
-			<item value="cuentasBancarias"/>
-			<item value="distribuidoraElectrica"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -85,10 +66,13 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="repaso"/>
 		</list>
 		<list key="name">
+			<item value="repaso-final"/>
 		</list>
 		<list key="artifactId">
+			<item value="repaso"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
