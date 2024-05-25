@@ -16,6 +16,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="/home/carla/Facultad/oo1/repaso"/>
 			<item value="/home/carla/Facultad/oo1/practica/practica7"/>
 			<item value="/home/carla/Facultad/oo1/practica/practica6"/>
 			<item value="/home/carla/Facultad/oo1/practica/practica5"/>
@@ -35,7 +36,7 @@
 		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
-		<item key="catalog" value="https://repo1.maven.org/maven2/archetype-catalog.xml"/>
+		<item key="catalog" value="All Catalogs"/>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -47,10 +48,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="ar.edu.unlp.info.oo1.figurasYCuerpos"/>
 		</list>
 		<list key="groupId">
+			<item value="ar.edu.unlp.info.oo1"/>
 		</list>
 		<list key="artifactId">
+			<item value="figurasYCuerpos"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -66,13 +70,10 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="repaso"/>
 		</list>
 		<list key="name">
-			<item value="repaso-final"/>
 		</list>
 		<list key="artifactId">
-			<item value="repaso"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -99,5 +100,9 @@
 		<list key="repositoryUrl">
 			<item value="https://github.com/edu-unlp-info-objetos/oo1/blob/main/objetos-uno-archetype/objetos-uno-archetype-1.0.0.jar?raw=true"/>
 		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
 </section>
